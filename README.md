@@ -19,6 +19,6 @@ Mulțumesc tuturor.
 
 # rețete
 
-* [ciorba_de_fasole.md](Ciorbă de fasole)
-* [sos_trambita_piticului.md](Sos trambița piticului)
-* [supa_si_rasol.md](Supă și rasol)
+* [Ciorbă de fasole](ciorba_de_fasole.md)
+* [Sos trâmbița piticului](sos_trambita_piticului.md)
+* [Supă și rasol](supa_si_rasol.md)
