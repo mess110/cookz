@@ -1,28 +1,35 @@
-# ciorba de fasole
-
-## ingrediente
+# ingrediente
 
 * fasole
 * 2 cepe normale sau 1 mare
-* 3 morcovi (cei mai mari care ii ai)
-* patrunjelul
-* telina cat un pumn al Cezarei sau al meu sau 3 tulpini
+* 3 morcovi (cei mai mari pe care îi ai)
+* pătrunjel
+* țelină cat un pumn al Cezarei sau al meu sau 3 tulpini
 * 1/2 ardei verde 1/2 ardei rosu (sau 1 capia)
-* suc de rosii (exista la cutie si cu pupla de rosii) sau rosii decojite (la conserva)
+* suc de rosii (există la cutie și cu puplă de roșii) sau roșii decojite (la conservă)
 
-## mod de preparare
+# mod de preparare
 
-* fasolea se spala si se pune cu apa mai multa ca se unfla, de seara pana dimineata
-* dimineata se pune in cucta fasolea si se pune apa rece cam 4 degete peste fasole si putina sare si se pune la fiert cam 45 minute (de cand fasaie cucta)
-* in oala se pune un pic de ulei (sa acopere fundul) si se pune ceapa taiata mic si se lasa 1-2 minute (cu capac)
-* se adauga celelalte legume taiate cubulete ori date prin aparat cum avem noi (daca ai) si se lasa acoperite cu capac la inabusit putin 5-10 minute aprox.
-* Se amesteca la cateva minute sa nu se prinda si apoi se adauga 100 ml (un paharel mic cum avem noi ala de baut apa cel mai mic) si se mai lasa amestecand cu capac 5-10 minute.
-* Se adauga apa sa acopere legumele din oala (un deget peste) si se lasa la fiert amestecand din cand in cand si mai adaugand apa daca se evapora.
-* Cand sunt fierte le tragi deoparte.
-* Cam in acelasi timp se termina si fasolea (gusti un bob) pe care cu apa cu tot o torni peste legumele din oala
-* completezi cu apa daca mai trebuie, tai niste carnati uscat bucatele (ca pentru prajit) si le arunci in olala -daca vrei
-* Condimentezi inclusiv cimbru si lasi totul sa dea in clocot cateva minute, gusti si este GATA.
+* fasolea se spală și se pune cu apă mai multă că se unfla, de seara până dimineața
+* dimineața se pune in cuctă fasolea și se pune apă rece cam 4 degete peste fasole și
+putină sare și se pune la fiert cam 45 minute (de când fâșâie cucta)
+* in oală se pune un pic de ulei (să acopere fundul) și se pune ceapa taiata mic
+și se lasă 1-2 minute (cu capac)
+* se adaugă celelalte legume tăiate cubulețe ori date prin aparat cum avem noi
+(dacă ai) și se lasă acoperite cu capac la înabusit puțin 5-10 minute aprox.
+* Se amestecă la cateva minute să nu se prindă și apoi se adaugă 100 ml
+(un păhărel mic cum avem noi ăla de băut apă cel mai mic) și se mai lasă amestecând
+cu capac 5-10 minute.
+* Se adaugă apă să acopere legumele din oală (un deget peste) și se lasă la fiert
+amestecând din când in când și mai adaugand apă dacă se evaporă.
+* Când sunt fierte le tragi deoparte.
+* Cam in același timp se termină și fasolea (gusti un bob) pe care cu apă cu tot
+o torni peste legumele din oala
+* completezi cu apă daca mai trebuie, tai niste carnați uscat bucățele
+(ca pentru prajit) și le arunci in oală - dacă vrei
+* Condimentezi inclusiv cimbru și lași totul să dea in clocot cateva minute,
+gusti și este GATA.
 
-## by mom
+# trivia
 
-POFTA BUNA si PUSIIIIIIIIIIII 
+reteta mamei: POFTA BUNA si PUSIIIIIIIIIIII
