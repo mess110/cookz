@@ -16,3 +16,9 @@ Am adunat rețetele de unde am apucat: mama, tata, bunica, mamele prietenilor,
 prieteni, internet, radio, cărti, hărti, manuscrise si pergamente.
 
 Mulțumesc tuturor.
+
+# rețete
+
+* [ciorba_de_fasole.md](Ciorbă de fasole)
+* [sos_trambita_piticului.md](Sos trambița piticului)
+* [supa_si_rasol.md](Supă și rasol)
