@@ -1,18 +1,18 @@
 # important
 
-Inainte sa incepi, trebuie sa te speli pe maini (fara exceptii).
+Înainte să începi, trebuie să te speli pe mâini (fără excepții).
 
-Sa speli ingredientele!
+Să speli ingredientele!
 
 # trivia
 
-Gatitul este o joaca, trebuie sa te distrezi. Nu exista multe reguli,
-experimenteaza, schimba ingrediente si masoara ochiometric dupa gust.
+Gătitul este o joacă, trebuie să te distrezi. Nu există multe reguli,
+experimentează, schimbă ingrediente și măsoara ochiometric după gust.
 
-Mirosul este forate important, te ajuta sa iti dai seama care ingrediente
+Mirosul este foarte important, te ajută să iți dai seama care ingrediente
 merg bine cu altele.
 
-Am adunat retetele de unde am apucat: mama, tata, bunica, mamele prietenilor,
-prieteni, internet, radio, carti, harti, manuscrise si pergamente.
+Am adunat rețetele de unde am apucat: mama, tata, bunica, mamele prietenilor,
+prieteni, internet, radio, cărti, hărti, manuscrise si pergamente.
 
-Multumesc tuturor.
+Mulțumesc tuturor.
