@@ -1,14 +1,14 @@
 #!/usr/bin/env ruby
 
 class Cookz
-  def self.help
+  def self.help args
     puts "cookz commands\n\n"
-    cookz_methods.each do |e|
+    (Cookz.methods - Object.methods).each do |e|
       puts "  #{e}"
     end
   end
 
-  def self.toc
+  def self.toc args
     recipes = `ls retete/`.split("\n")
 
     toc = "# rețete\n"
@@ -22,34 +22,34 @@ class Cookz
     File.write('REȚETE.md', toc)
   end
 
-  def self.publish msg
+  def self.publish args
+    Cookz.toc args
     `git add .`
     unless `git ls-files --deleted`.empty?
       `git rm \`git ls-files --deleted\``
     end
+    msg_a = args.clone
+    msg_a.shift
+    msg = msg_a.join(' ')
     `git commit -m "#{msg}"`
     `git push`
   end
 end
 
-def cookz_methods
-  Cookz.methods - Object.methods
+cookz_methods = Cookz.methods - Object.methods
+
+cookz_methods.each do |meth|
+  begin
+    throw 'wrong params' if Cookz.method(meth).parameters[0][1] != :args
+  rescue
+    puts "#{meth} is missing args parameter"
+    exit 1
+  end
 end
 
 if ARGV.length == 0 || !cookz_methods.include?(ARGV[0].to_sym)
-  Cookz.help
-  exit 1
+  Cookz.help ARGV
+  exit 2
 end
 
-if ARGV[0] == 'publish'
-  unless ARGV.length > 1
-    puts 'write a desc of the change. it will be used in the commit msg'
-    exit 1
-  end
-  Cookz.toc
-  args = ARGV.clone
-  args.shift
-  Cookz.publish args.join(' ')
-else
-  Cookz.send(ARGV[0])
-end
+Cookz.send(ARGV[0], ARGV)
