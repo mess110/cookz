@@ -19,5 +19,5 @@ Mulțumesc tuturor.
 
 # rețete
 
-[rețete](REȚETE.md)
-[categorii](CATEGORII.md)
+* [rețete](REȚETE.md)
+* [categorii](CATEGORII.md)
