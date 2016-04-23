@@ -1,54 +1,55 @@
 #!/usr/bin/env ruby
 
-def help
-  puts "cookz commands\n\n"
-  puts '  toc - write table of contents'
-end
-
-def write_toc
-  recipes = `ls retete/`.split("\n")
-
-  def to_human s
-    s.gsub('.md', '').gsub('_', ' ')
-  end
-
-  toc = "# rețete\n"
-
-  recipes.each do |recipe|
-    toc += "\n* [#{to_human(recipe)}](retete/#{recipe})"
-  end
-  toc += "\n"
-
-  File.write('REȚETE.md', toc)
-end
-
-def publish msg
-  `git add .`
-  unless `git ls-files --deleted`.empty?
-    `git rm \`git ls-files --deleted\``
-  end
-  `git commit -m "#{msg}"`
-  `git push`
-end
-
-args = ARGV.clone
-if ARGV.length == 0
-  help
-else
-  case ARGV[0]
-  when 'help'
-    help
-  when 'toc'
-    write_toc
-  when 'publish'
-    unless ARGV.length > 1
-      puts 'write a desc of the change. it will be used in the commit msg'
-      exit 1
+class Cookz
+  def self.help
+    puts "cookz commands\n\n"
+    cookz_methods.each do |e|
+      puts "  #{e}"
     end
-    write_toc
-    args.shift
-    publish args.join(' ')
-  else
-    help
   end
+
+  def self.toc
+    recipes = `ls retete/`.split("\n")
+
+    toc = "# rețete\n"
+
+    recipes.each do |recipe|
+      name = recipe.gsub('.md', '').gsub('_', ' ')
+      toc += "\n* [#{name}](retete/#{recipe})"
+    end
+    toc += "\n"
+
+    File.write('REȚETE.md', toc)
+  end
+
+  def self.publish msg
+    `git add .`
+    unless `git ls-files --deleted`.empty?
+      `git rm \`git ls-files --deleted\``
+    end
+    `git commit -m "#{msg}"`
+    `git push`
+  end
+end
+
+def cookz_methods
+  Cookz.methods - Object.methods
+end
+
+if ARGV.length == 0 || !cookz_methods.include?(ARGV[0].to_sym)
+  Cookz.help
+  exit 1
+end
+
+if ARGV[0] == 'publish'
+  unless ARGV.length > 1
+    puts 'write a desc of the change. it will be used in the commit msg'
+    exit 1
+  end
+  Cookz.toc
+  args = ARGV.clone
+  args.shift
+  Cookz.publish args.join(' ')
+else
+  Cookz.send(ARGV[0])
 end
