@@ -18,8 +18,8 @@ mărar
 * se adaugă morcovii și țelina (cubulețe) și ciupercile (felii) și se toarnă
 apă peste (5 degete)
 * separă gălbenușul oului de albuș și pune gălbenușul intr-un pahar
-* peste gălbenus adauga făina și amestecă. Cu o lingură adauga treptat din apa
-de supă in pahar și amestecă
+* peste gălbenus adauga făina și amestecă. Cu o lingură, adaugă treptat din
+zeama din ciorbă în pahar și amestecă
 * adaugă puiul fiert și conținutul paharului peste legume si completează cu apă
 * se adaugă incă o doză de mărar
 

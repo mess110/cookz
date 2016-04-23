@@ -1,11 +1,60 @@
 #!/usr/bin/env ruby
 
+require 'json'
+
 class Cookz
   def self.help args
     puts "cookz commands\n\n"
     (Cookz.methods - Object.methods).each do |e|
       puts "  #{e}"
     end
+  end
+
+  def self.stats args
+    categories = {}
+    recipes = `ls retete/`.split("\n")
+
+    keys = [
+      ['ciorbă', 'supă'],
+      'salată',
+      'compot',
+      ['mic dejun', 'omletă', 'papară'],
+      ['fructe de mare', 'calamari'],
+      ['sosuri', 'hrean ras', 'sos trâmbița'],
+      ['cuptor'],
+      ['garnitură', 'spanac scăzut']
+    ]
+
+    recipes.each do |recipe|
+      file = File.read("retete/#{recipe}")
+      keys.each do |key|
+        if key.class == String
+          if file.include?(key) || recipe.gsub('_', ' ').include?(key)
+            categories[key] = [] unless categories.key?(key)
+            categories[key].push recipe
+          end
+        else
+          key.each do |k|
+            if file.include?(k) || recipe.gsub('_', ' ').include?(k)
+              categories[key[0]] = [] unless categories.key?(key[0])
+              categories[key[0]].push recipe
+            end
+          end
+        end
+      end
+    end
+
+    output = {
+      count: recipes.count,
+      categories: categories,
+      categories_count: {}
+    }
+
+    output[:categories].keys.each do |key|
+      output[:categories_count][key] = output[:categories][key].count
+    end
+
+    puts JSON.pretty_generate(output)
   end
 
   def self.toc args
