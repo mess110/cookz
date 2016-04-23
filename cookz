@@ -17,10 +17,19 @@ def write_toc
   recipes.each do |recipe|
     toc += "\n* [#{to_human(recipe)}](retete/#{recipe})"
   end
+  toc += "\n"
 
   File.write('REȚETE.md', toc)
 end
 
+def publish msg
+  `git add .`
+  `git rm \`git ls-files --deleted\``
+  `git commit -m "#{msg}"`
+  `git push`
+end
+
+args = ARGV.clone
 if ARGV.length == 0
   help
 else
@@ -29,6 +38,14 @@ else
     help
   when 'toc'
     write_toc
+  when 'publish'
+    unless ARGV.length > 1
+      puts 'write a desc of the change. it will be used in the commit msg'
+      return
+    end
+    write_toc
+    args.shift
+    publish args.join(' ')
   else
     help
   end
