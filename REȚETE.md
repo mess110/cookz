@@ -1,4 +1,4 @@
-# rețete
+# 13 rețete
 
 * [brânzeturi românești](retete/brânzeturi_românești.md)
 * [calamari în vin alb](retete/calamari_în_vin_alb.md)

@@ -47,20 +47,26 @@ class Cookz
     output = {
       count: recipes.count,
       categories: categories,
-      categories_count: {}
     }
 
+    categories_markdown = "# categorii\n\n"
     output[:categories].keys.each do |key|
-      output[:categories_count][key] = output[:categories][key].count
+      how_many = output[:categories][key].count
+      recipes_string = how_many != 1 ? 'rețete' : 'rețetă'
+      categories_markdown += "- #{key} **#{how_many} #{recipes_string}**\n"
+      output[:categories][key].each do |file|
+        name = file.gsub('.md', '').gsub('_', ' ')
+        categories_markdown += "-- [#{name}](retete/#{file})\n"
+      end
     end
 
-    puts JSON.pretty_generate(output)
+    File.write('CATEGORII.md', categories_markdown)
   end
 
   def self.toc args
     recipes = `ls retete/`.split("\n")
 
-    toc = "# rețete\n"
+    toc = "# #{recipes.count} rețete\n"
 
     recipes.each do |recipe|
       name = recipe.gsub('.md', '').gsub('_', ' ')
@@ -73,6 +79,7 @@ class Cookz
 
   def self.publish args
     Cookz.toc args
+    Cookz.stats args
     `git add .`
     unless `git ls-files --deleted`.empty?
       `git rm \`git ls-files --deleted\``

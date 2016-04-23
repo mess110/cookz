@@ -17,4 +17,7 @@ prieteni, internet, radio, cărti, hărti, manuscrise si pergamente.
 
 Mulțumesc tuturor.
 
-# [rețete](REȚETE.md)
+# rețete
+
+[rețete](REȚETE.md)
+[categorii](CATEGORII.md)
