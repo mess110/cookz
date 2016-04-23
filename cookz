@@ -24,7 +24,9 @@ end
 
 def publish msg
   `git add .`
-  `git rm \`git ls-files --deleted\``
+  unless `git ls-files --deleted`.empty?
+    `git rm \`git ls-files --deleted\``
+  end
   `git commit -m "#{msg}"`
   `git push`
 end
@@ -41,7 +43,7 @@ else
   when 'publish'
     unless ARGV.length > 1
       puts 'write a desc of the change. it will be used in the commit msg'
-      return
+      exit 1
     end
     write_toc
     args.shift
