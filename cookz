@@ -53,7 +53,7 @@ class Cookz
     output[:categories].keys.each do |key|
       how_many = output[:categories][key].count
       recipes_string = how_many != 1 ? 'rețete' : 'rețetă'
-      categories_markdown += "* #{key} **#{how_many} #{recipes_string}**\n"
+      categories_markdown += "* #{key} *#{how_many} #{recipes_string}*\n"
       output[:categories][key].each do |file|
         name = file.gsub('.md', '').gsub('_', ' ')
         categories_markdown += "  * [#{name}](retete/#{file})\n"
