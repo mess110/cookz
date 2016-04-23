@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+def help
+  puts "cookz commands\n\n"
+  puts '  toc - write table of contents'
+end
+
+def write_toc
+  recipes = `ls retete/`.split("\n")
+
+  def to_human s
+    s.gsub('.md', '').gsub('_', ' ')
+  end
+
+  toc = "# rețete\n"
+
+  recipes.each do |recipe|
+    toc += "\n* [#{to_human(recipe)}](retete/#{recipe})"
+  end
+
+  File.write('REȚETE.md', toc)
+end
+
+if ARGV.length == 0
+  help
+else
+  case ARGV[0]
+  when 'help'
+    help
+  when 'toc'
+    write_toc
+  else
+    help
+  end
+end

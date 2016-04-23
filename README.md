@@ -17,8 +17,4 @@ prieteni, internet, radio, cărti, hărti, manuscrise si pergamente.
 
 Mulțumesc tuturor.
 
-# rețete
-
-* [Ciorbă de fasole](ciorba_de_fasole.md)
-* [Sos trâmbița piticului](sos_trambita_piticului.md)
-* [Supă și rasol](supa_si_rasol.md)
+# [rețete](REȚETE.md)
