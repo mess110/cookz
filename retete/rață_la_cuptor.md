@@ -5,6 +5,7 @@
 * soia
 * miere
 * vin roșu
+* mărar (opțional)
 * ceapă (opțional)
 
 # mod de preparare
@@ -15,9 +16,9 @@
 * pune foaie de copt într-un vas de iena, rața si pune la cuptor
 * la foc mic, stoarce portocala in grăsimea de rață, pune 2 lingurițe
 de soia, 1 linguriță de miere și puțin vin roșu
-* adaugă ceapa tăiată mărunt (opțional)
-* amesteca continuu
-* servește rața cu sosul și salată
+* adaugă ceapa tăiată mărunt și mărarul (opțional)
+* amesteca continuu până se ingroașă
+* servește cald
 
 # trivia
 
