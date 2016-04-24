@@ -50,7 +50,7 @@ class Cookz
     }
 
     categories_markdown = "# categorii\n\n"
-    output[:categories].keys.each do |key|
+    output[:categories].keys.sort.each do |key|
       how_many = output[:categories][key].count
       recipes_string = how_many != 1 ? 'rețete' : 'rețetă'
       categories_markdown += "* #{key} *#{how_many} #{recipes_string}*\n"
