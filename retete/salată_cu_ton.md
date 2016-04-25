@@ -1,0 +1,23 @@
+# ingrediente
+
+* ton (în ulei)
+* lămâie
+* salată iceberg
+* ceapă roșie
+* roșie
+* castravete
+* smântână
+* castraveciori murați (opțional)
+
+# mod de preparare
+
+* taie ceapa mărunt, adaugă puțină sare
+* adaugă tonul, multă lămâie și amestecă
+* taie salata, roșia, castravetele
+* adaugă smântâna
+
+# trivia
+
+În altă țară am mâncat o salată incredibil de bună, foarte simplă (roșii, castraveți,
+ceapă). Secretul: totul era tăiat mărunt, în lingură incăpeau toate ingredientele
+și nu au irosit zeama de la roșie.

@@ -1,4 +1,4 @@
-# 15 rețete
+# 16 rețete
 
 * [brânzeturi românești](retete/brânzeturi_românești.md)
 * [calamari în vin alb](retete/calamari_în_vin_alb.md)
@@ -11,6 +11,7 @@
 * [papară tărănească](retete/papară_tărănească.md)
 * [piure de cartofi](retete/piure_de_cartofi.md)
 * [rață la cuptor](retete/rață_la_cuptor.md)
+* [salată cu ton](retete/salată_cu_ton.md)
 * [salată totală](retete/salată_totală.md)
 * [sos trâmbița piticului](retete/sos_trâmbița_piticului.md)
 * [spanac scăzut](retete/spanac_scăzut.md)

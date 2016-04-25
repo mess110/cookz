@@ -17,7 +17,8 @@
 * **mic dejun** *2 rețete*
   * [mic dejun brașovean](retete/mic_dejun_brașovean.md)
   * [papară tărănească](retete/papară_tărănească.md)
-* **salată** *1 rețetă*
+* **salată** *2 rețete*
+  * [salată cu ton](retete/salată_cu_ton.md)
   * [salată totală](retete/salată_totală.md)
 * **sosuri** *2 rețete*
   * [hrean ras](retete/hrean_ras.md)
