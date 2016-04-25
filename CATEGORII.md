@@ -11,7 +11,8 @@
   * [rață la cuptor](retete/rață_la_cuptor.md)
 * **fructe de mare** *1 rețetă*
   * [calamari în vin alb](retete/calamari_în_vin_alb.md)
-* **garnitură** *1 rețetă*
+* **garnitură** *2 rețete*
+  * [piure de cartofi](retete/piure_de_cartofi.md)
   * [spanac scăzut](retete/spanac_scăzut.md)
 * **mic dejun** *2 rețete*
   * [mic dejun brașovean](retete/mic_dejun_brașovean.md)
