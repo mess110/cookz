@@ -21,3 +21,9 @@ Mulțumesc tuturor.
 
 * [rețete](REȚETE.md)
 * [categorii](CATEGORII.md)
+
+# cum contribui?
+
+Oricine poate contribui. Adaugă rețeta ta in folderul [/retete](/retete) scrisă in formatul markdown.
+
+Un template pentru rețete poate fi găsit [aici](https://jbt.github.io/markdown-editor/#RYxBCoAwDATvecWCtxxEfYsfCDZIwNYSo+8XK+Jph2WYDlZW12RaQokYFpoxfjARdch7QlJU1you3rQqx7k1j18c+H/BvJxY9BJYrruHlGB+UuF2mRDNbfsb).
