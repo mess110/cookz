@@ -1,8 +1,9 @@
 # categorii
 
-* **ciorbă** *3 rețete*
+* **ciorbă** *4 rețete*
   * [ciorbă de fasole](retete/ciorbă_de_fasole.md)
   * [ciorbă de pui cu ciuperci](retete/ciorbă_de_pui_cu_ciuperci.md)
+  * [supă cremă de cartofi](retete/supă_cremă_de_cartofi.md)
   * [supă și rasol](retete/supă_și_rasol.md)
 * **compot** *1 rețetă*
   * [compot de rabarbăr](retete/compot_de_rabarbăr.md)

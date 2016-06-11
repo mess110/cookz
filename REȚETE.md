@@ -1,6 +1,7 @@
-# 16 rețete
+# 19 rețete
 
 * [brânzeturi românești](retete/brânzeturi_românești.md)
+* [bulz de legume](retete/bulz_de_legume.md)
 * [calamari în vin alb](retete/calamari_în_vin_alb.md)
 * [carne feliată la cuptor](retete/carne_feliată_la_cuptor.md)
 * [ciorbă de fasole](retete/ciorbă_de_fasole.md)
@@ -15,4 +16,6 @@
 * [salată totală](retete/salată_totală.md)
 * [sos trâmbița piticului](retete/sos_trâmbița_piticului.md)
 * [spanac scăzut](retete/spanac_scăzut.md)
+* [suc de soc](retete/suc_de_soc.md)
+* [supă cremă de cartofi](retete/supă_cremă_de_cartofi.md)
 * [supă și rasol](retete/supă_și_rasol.md)
