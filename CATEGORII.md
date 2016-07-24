@@ -7,9 +7,10 @@
   * [supă și rasol](retete/supă_și_rasol.md)
 * **compot** *1 rețetă*
   * [compot de rabarbăr](retete/compot_de_rabarbăr.md)
-* **cuptor** *2 rețete*
+* **cuptor** *3 rețete*
   * [carne feliată la cuptor](retete/carne_feliată_la_cuptor.md)
   * [rață la cuptor](retete/rață_la_cuptor.md)
+  * [vinete la cuptor](retete/vinete_la_cuptor.md)
 * **fructe de mare** *1 rețetă*
   * [calamari în vin alb](retete/calamari_în_vin_alb.md)
 * **garnitură** *2 rețete*

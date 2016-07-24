@@ -1,4 +1,4 @@
-# 19 rețete
+# 21 rețete
 
 * [brânzeturi românești](retete/brânzeturi_românești.md)
 * [bulz de legume](retete/bulz_de_legume.md)
@@ -6,6 +6,7 @@
 * [carne feliată la cuptor](retete/carne_feliată_la_cuptor.md)
 * [ciorbă de fasole](retete/ciorbă_de_fasole.md)
 * [ciorbă de pui cu ciuperci](retete/ciorbă_de_pui_cu_ciuperci.md)
+* [ciuperci asia style](retete/ciuperci_asia_style.md)
 * [compot de rabarbăr](retete/compot_de_rabarbăr.md)
 * [hrean ras](retete/hrean_ras.md)
 * [mic dejun brașovean](retete/mic_dejun_brașovean.md)
@@ -19,3 +20,4 @@
 * [suc de soc](retete/suc_de_soc.md)
 * [supă cremă de cartofi](retete/supă_cremă_de_cartofi.md)
 * [supă și rasol](retete/supă_și_rasol.md)
+* [vinete la cuptor](retete/vinete_la_cuptor.md)
