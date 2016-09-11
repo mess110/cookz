@@ -13,32 +13,32 @@ class Cookz
   def self.stats args
     categories = {}
     recipes = `ls retete/`.split("\n")
+    feluri = []
 
     keys = [
       ['ciorbă', 'supă'],
-      'salată',
-      'compot',
+      ['salată'],
+      ['compot'],
       ['mic dejun', 'omletă', 'papară'],
-      ['fructe de mare', 'calamari'],
+      ['fructe de mare', 'calamari', 'creveți'],
       ['sosuri', 'hrean ras', 'sos trâmbița'],
       ['cuptor'],
       ['garnitură', 'spanac scăzut']
     ]
 
     recipes.each do |recipe|
+      recipe_name = recipe.gsub('_', ' ')
+
       file = File.read("retete/#{recipe}")
+      if recipe.start_with?('feluri_')
+        feluri.push recipe
+        next
+      end
       keys.each do |key|
-        if key.class == String
-          if file.include?(key) || recipe.gsub('_', ' ').include?(key)
-            categories[key] = [] unless categories.key?(key)
-            categories[key].push recipe
-          end
-        else
-          key.each do |k|
-            if file.include?(k) || recipe.gsub('_', ' ').include?(k)
-              categories[key[0]] = [] unless categories.key?(key[0])
-              categories[key[0]].push recipe
-            end
+        key.each do |k|
+          if file.include?(k) || recipe_name.include?(k)
+            categories[key[0]] = [] unless categories.key?(key[0])
+            categories[key[0]].push recipe
           end
         end
       end
@@ -46,7 +46,8 @@ class Cookz
 
     output = {
       count: recipes.count,
-      categories: categories,
+      feluri: feluri,
+      categories: categories
     }
 
     categories_markdown = "# categorii\n\n"
@@ -58,6 +59,13 @@ class Cookz
         name = file.gsub('.md', '').gsub('_', ' ')
         categories_markdown += "  * [#{name}](retete/#{file})\n"
       end
+    end
+
+    recipes_string = output[:feluri] != 1 ? 'feluri' : 'fel'
+    categories_markdown += "* **util** *#{output[:feluri].size} #{recipes_string}*\n"
+    output[:feluri].sort.each do |fel|
+      name = fel.gsub('.md', '').gsub('_', ' ')
+      categories_markdown += "   * [#{name}](retete/#{fel})\n"
     end
 
     File.write('CATEGORII.md', categories_markdown)
