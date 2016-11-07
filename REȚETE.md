@@ -1,4 +1,4 @@
-# 26 rețete
+# 34 rețete
 
 * [ardei copt cu salată de vinete](retete/ardei_copt_cu_salată_de_vinete.md)
 * [avocado umplut cu creveți](retete/avocado_umplut_cu_creveți.md)
@@ -7,6 +7,7 @@
 * [carne feliată la cuptor](retete/carne_feliată_la_cuptor.md)
 * [cartofi carbonara](retete/cartofi_carbonara.md)
 * [ciorbă de fasole](retete/ciorbă_de_fasole.md)
+* [ciorbă de pește deltă](retete/ciorbă_de_pește_deltă.md)
 * [ciorbă de pui cu ciuperci](retete/ciorbă_de_pui_cu_ciuperci.md)
 * [ciuperci asia style](retete/ciuperci_asia_style.md)
 * [compot de rabarbăr](retete/compot_de_rabarbăr.md)
@@ -14,12 +15,19 @@
 * [feluri salată verde](retete/feluri_salată_verde.md)
 * [hrean ras](retete/hrean_ras.md)
 * [mic dejun brașovean](retete/mic_dejun_brașovean.md)
+* [ not finished ardei umpluți](retete/_not_finished_ardei_umpluți.md)
+* [ not finished brânză de burduf](retete/_not_finished_brânză_de_burduf.md)
+* [ not finished feluri roșii](retete/_not_finished_feluri_roșii.md)
+* [nuremberg thai](retete/nuremberg_thai.md)
 * [papară tărănească](retete/papară_tărănească.md)
+* [piure de cartofi filipinez](retete/piure_de_cartofi_filipinez.md)
 * [piure de cartofi](retete/piure_de_cartofi.md)
+* [piure de morcovi](retete/piure_de_morcovi.md)
 * [predominant ou](retete/predominant_ou.md)
 * [rață la cuptor](retete/rață_la_cuptor.md)
 * [salată cu ton](retete/salată_cu_ton.md)
 * [salată totală](retete/salată_totală.md)
+* [sos mujdei de usturoi](retete/sos_mujdei_de_usturoi.md)
 * [sos trâmbița piticului](retete/sos_trâmbița_piticului.md)
 * [spanac scăzut](retete/spanac_scăzut.md)
 * [suc de soc](retete/suc_de_soc.md)

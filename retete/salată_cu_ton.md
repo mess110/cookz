@@ -18,6 +18,6 @@
 
 # trivia
 
-În altă țară am mâncat o salată incredibil de bună, foarte simplă (roșii, castraveți,
+în altă țară am mâncat o salată incredibil de bună, foarte simplă (roșii, castraveți,
 ceapă). Secretul: totul era tăiat mărunt, în lingură incăpeau toate ingredientele
 și nu au irosit zeama de la roșie.

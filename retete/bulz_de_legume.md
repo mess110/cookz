@@ -27,4 +27,4 @@
 
 # trivia
 
-Nu știu sigur ce înseamnă bulz.
+nu știu sigur ce înseamnă bulz.

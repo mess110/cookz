@@ -19,4 +19,4 @@ dorită
 
 # trivia
 
-Rhymes with bacon
+rhymes with bacon

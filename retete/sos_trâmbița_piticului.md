@@ -23,4 +23,4 @@ in smantana sau otet balsamic cu putina apa (1 ora)
 
 # trivia
 
-Craterellus cornucopioides
+craterellus cornucopioides

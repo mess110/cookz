@@ -1,8 +1,8 @@
 # Salată verde
 
-Cultivată de greci, popularizată de romani și greci.
+cultivată de greci, popularizată de romani și greci.
 
-Conține săruri minerale, vitaminele A, C, B, K, bună pentru metabolism.
+conține săruri minerale, vitaminele A, C, B, K, bună pentru metabolism.
 
 ## Salata europeană
 

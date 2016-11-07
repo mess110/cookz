@@ -14,4 +14,4 @@ amesteca apoi pune la frigider
 
 # trivia
 
-Fără soare/pâine/drojdie, pentru un gust pur - a'la jandarm
+fără soare/pâine/drojdie, pentru un gust pur - a'la jandarm

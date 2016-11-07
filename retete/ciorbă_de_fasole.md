@@ -13,7 +13,7 @@
 * fasolea se spală și se pune cu apă mai multă că se unfla, de seara până dimineața
 * dimineața se pune in cuctă fasolea și se pune apă rece cam 4 degete peste fasole și
 putină sare și se pune la fiert cam 45 minute (de când fâșâie cucta)
-* in oală se pune un pic de ulei (să acopere fundul) și se pune ceapa taiata mic
+* în oală se pune un pic de ulei (să acopere fundul) și se pune ceapa tăiată mic
 și se lasă 1-2 minute (cu capac)
 * se adaugă celelalte legume tăiate cubulețe ori date prin aparat cum avem noi
 (dacă ai) și se lasă acoperite cu capac la înabusit puțin 5-10 minute aprox.

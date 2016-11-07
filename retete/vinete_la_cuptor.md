@@ -21,4 +21,4 @@ tăiată cubulețe mari
 
 # trivia
 
-Mai bun când e cald.
+mai bun când e cald.

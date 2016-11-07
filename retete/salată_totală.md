@@ -41,5 +41,5 @@ cantitatea, în definitiv nu ești bou (asta este iarăși una tare...)
 
 # trivia
 
-Salata așa făcuta ia timp, dacă se face in mai mulți (cel putin doi) este și
+salata așa făcuta ia timp, dacă se face in mai mulți (cel putin doi) este și
 distractiv și nu este time consumer dar MERITA iammmmy!!!
