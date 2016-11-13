@@ -1,6 +1,8 @@
-# 34 rețete
+# 39 rețete
 
 * [ardei copt cu salată de vinete](retete/ardei_copt_cu_salată_de_vinete.md)
+* [ardei umpluți cu brânză](retete/ardei_umpluți_cu_brânză.md)
+* [ardei umpluți](retete/ardei_umpluți.md)
 * [avocado umplut cu creveți](retete/avocado_umplut_cu_creveți.md)
 * [bulz de legume](retete/bulz_de_legume.md)
 * [calamari în vin alb](retete/calamari_în_vin_alb.md)
@@ -15,9 +17,10 @@
 * [feluri salată verde](retete/feluri_salată_verde.md)
 * [hrean ras](retete/hrean_ras.md)
 * [mic dejun brașovean](retete/mic_dejun_brașovean.md)
-* [ not finished ardei umpluți](retete/_not_finished_ardei_umpluți.md)
 * [ not finished brânză de burduf](retete/_not_finished_brânză_de_burduf.md)
+* [ not finished feluri ardei iuți](retete/_not_finished_feluri_ardei_iuți.md)
 * [ not finished feluri roșii](retete/_not_finished_feluri_roșii.md)
+* [ not finished sarmale](retete/_not_finished_sarmale.md)
 * [nuremberg thai](retete/nuremberg_thai.md)
 * [papară tărănească](retete/papară_tărănească.md)
 * [piure de cartofi filipinez](retete/piure_de_cartofi_filipinez.md)
@@ -27,6 +30,7 @@
 * [rață la cuptor](retete/rață_la_cuptor.md)
 * [salată cu ton](retete/salată_cu_ton.md)
 * [salată totală](retete/salată_totală.md)
+* [sos ardei iute](retete/sos_ardei_iute.md)
 * [sos mujdei de usturoi](retete/sos_mujdei_de_usturoi.md)
 * [sos trâmbița piticului](retete/sos_trâmbița_piticului.md)
 * [spanac scăzut](retete/spanac_scăzut.md)
@@ -34,3 +38,4 @@
 * [supă cremă de cartofi](retete/supă_cremă_de_cartofi.md)
 * [supă și rasol](retete/supă_și_rasol.md)
 * [vinete la cuptor](retete/vinete_la_cuptor.md)
+* [zahăr vanilat](retete/zahăr_vanilat.md)

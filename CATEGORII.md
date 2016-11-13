@@ -8,7 +8,9 @@
   * [supă și rasol](retete/supă_și_rasol.md)
 * **compot** *1 rețetă*
   * [compot de rabarbăr](retete/compot_de_rabarbăr.md)
-* **cuptor** *5 rețete*
+* **cuptor** *7 rețete*
+  * [ardei umpluți cu brânză](retete/ardei_umpluți_cu_brânză.md)
+  * [ardei umpluți](retete/ardei_umpluți.md)
   * [carne feliată la cuptor](retete/carne_feliată_la_cuptor.md)
   * [cartofi carbonara](retete/cartofi_carbonara.md)
   * [piure de morcovi](retete/piure_de_morcovi.md)
